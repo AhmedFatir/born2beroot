@@ -44,8 +44,8 @@ function clean {
 	clean_glob "$HOME"/.zcompdump*
 	clean_glob "$HOME"/.cocoapods.42_cache_bak*
 
-	#Trash
-	clean_glob "$HOME"/.Trash/*
+	# #Trash
+	# clean_glob "$HOME"/.Trash/*
 
 	#General Caches files
 	#giving access rights on Homebrew caches, so the script can delete them
