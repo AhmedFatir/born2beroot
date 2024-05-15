@@ -90,16 +90,16 @@ git commit -m "$commit_message"
 echo "\n\033[4;31mGIT PUSH\033[0;37m\n"
 git push'
 
-bash /Users/afatir/ccl.sh
+bash ~/ccl.sh
 alias finder='bash <(curl -s https://raw.githubusercontent.com/ilyassesalama/1337-Finder/main/1337-Finder.sh)'
-alias zshup='source /Users/afatir/.zshrc'
+alias zshup='source ~/.zshrc'
 alias c17='c++ -std=c++17'
 alias c98='c++ -std=c++98'
 alias rmv='rm -rf .vscode .DS_Store'
 alias rmf='rm -rf'
-alias cl="bash /Users/afatir/ccl.sh && /bin/rm -rf "$HOME"/.Trash/* &>/dev/null" 
-alias cclean="bash /Users/afatir/ccl.sh && /bin/rm -rf "$HOME"/.Trash/* &>/dev/null"
-alias cdd="cd /Users/afatir/Desktop"
+alias cl="bash ~/ccl.sh && find ~/.Trash/ -mindepth 1 -delete" 
+alias cclean="bash ~/ccl.sh && find ~/.Trash/ -mindepth 1 -delete"
+alias cdd="cd ~/Desktop"
 alias bas='PS1="╭─\[\033[1;33m\]\u_bash$\[\033[0;34m\] \W\n\[\033[0;37m\]╰─$ " bash'
 
 osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true' &>/dev/null
