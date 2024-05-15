@@ -100,7 +100,8 @@ fi
 echo -e "\033[1;32m -- Available Storage After Cleaning  : || $Storage || --\033[0m"
 rm -rf .DS_Store
 
-
+#------------------------bira THEME dor zsh--------------------------------
+# ~/.oh-my-zsh/themes/bira.zsh-theme
 #------------------------bira THEME dor zsh--------------------------------
 
 # local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
